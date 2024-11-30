@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Events List</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Sports Events List</h1>
+    <div class="input-section">
+        <label for="category-select">Category:</label>
+        <select  id="category-select">
+            <option value="Indoor">Indoor</option>
+            <option value="Outdoor">Outdoor</option>
+        </select>
+        <label for="amount-input">Sports-Name:</label>
+        <input type="text" id="amount-input">
+        <label for="date-input">Location:</label>
+        <input type="text" id="date-input">
+        <button id="add-btn">ADD</button>
+    </div>
+    <div class="expenses-list">
+        <h2>Sports-List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Sports</th>
+                    <th>Location</th>
+                    <th>Delete</th>
+                  
+                </tr>
+            </thead>
+            <tbody id="expense-table-body">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
